@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+'use strict'
+
+var c = require('skilstak-colors');
+
+var answers = [
+  "Yes",
+  "No",
+  "Maybe",
+];
+
+var easterEgg1 = ["die", "Are you thinking suicidal thoughts?"];
+var easterEgg2 = ["love", "Maybe you need E-Harmony."];
+var easterEggs = [easterEgg1,easterEgg2];
+
+function print(message) {
+  //console.log(messgae)
+  process.stdout.write (message + "\n");
+};
+
+print("Listening to 'Dark Angel' by F777. Its da best.");
+           
